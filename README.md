@@ -4,7 +4,9 @@
 
 ## Introduction
 
-For this project, I was tasked with the implementation of one input action using Enhanced Input in C++ and to expose at least one parameter to Blueprint for tuning. To complete this task I used Unreal's Documentation in combination with assistance from my peers. This task is helpful as control of input systems are necessary to the development of a modular game. 
+For this project, I was tasked with the implementation of one input action using Enhanced Input in C++ and to expose at least one parameter to Blueprint for tuning. To complete this task I used Unreal's Documentation in combination with assistance from my peers. This task is helpful as control of input systems are necessary to the development of a modular 
+game. 
+
 ---
 
 ## Implementation
@@ -71,7 +73,9 @@ void AMyCharacter::Move(const FInputActionValue& Value)
 
 ## Outcome
 
-The final result allows for a player to control a basic character using the W, A, S, and D keys on the keyboard.
+The final result allows for a player to control the movement of a basic character.
+
+The requirements of the task have been met, the input action movement can be used and allows for the player to move. Additionally the speed parameter is exposed and can be modified if necessary.
 
 ---
 
